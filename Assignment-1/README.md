@@ -1,35 +1,10 @@
-# ex-1
+# Assignment 1
+## Building a Dynamic Shopping List
+#### Instruction
+Build a dynamic shopping list app that will test your knowledge of Vue by using all the basic functions of an SFC, such as expressions, loops, two-way binding, and event binding.
 
-This template should help get you started developing with Vue 3 in Vite.
+The application should let users create and delete individual list items and clear the total list in one click. The following steps will help you complete the assignment:
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+1.  Build an interactive form in one component using an input bound to v-Model.
+2.  Add one input field that you can add shopping list items to. Allow users to add items by using the Enter key by binding a method to the @keyup.enter event.
+3.  User can expect to clear the list by deleting all the items or removing them one at a time. To do so, you can use a delete method that can pass the array position as an argument, or simply overwrite the whole shopping list data property to be an empty array [ ].
